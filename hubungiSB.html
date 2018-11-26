@@ -1,0 +1,226 @@
+<head>
+  <title>Restoran</title>
+  <style>
+   body {
+    font-family: "Lucida Sans", sans-serif;  
+    background-image:url('asset/home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin:0;
+
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+  .row::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+  [class*="col-"] {
+      float: left;
+      padding: 5px;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+
+
+  .navbar {
+    
+    background-color: #e60000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+  .navbar a {
+    float: left;
+    display: block;
+    width: 150px;
+    height: 50px;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left:10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background: #ddd;
+    opacity: 60%;
+    color: black;
+  }
+
+  .main {
+    padding: 16px;
+    margin-top: 150px;
+     /* Used in this example to enable scrolling */
+  }
+
+  .dropbtn {
+    background-color: black;
+    color: white;
+    padding-top: 19px;
+    padding-bottom: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown {
+      position: relative;
+      
+  }
+
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      width:480px;
+        
+  }
+
+  .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      width:120px;height:100px
+      
+  }
+
+  .dropdown-content a:hover {background-color: #adad85}
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+      background-color: #ddd;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+  }
+
+  hr{  
+    height: 3px; 
+    color: white; 
+    background-color: white; 
+    
+   
+    width: 70%;
+  }
+
+  box{
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    background-image: url('blackk.png');
+    text-align: justify;
+    text-decoration: none;
+    display: inline-block;
+    width : 300px;
+    height :400px;
+}
+
+.button a:link, a:visited {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.button a:hover, a:active {
+    background-color: #f44336;
+}
+
+  </style>
+
+</head>
+<body>
+    <div class="navbar">
+      <div class="col-8" style="padding-left: 120px">
+          <a href="home.html"><img src="asset/img.png" style="width:125px"></img></a>
+        </div>
+
+        <div class="col-4">
+          <a href="login.html" style="width: 80px;padding-top: 15px">Masuk</a>
+          <a href="applications.html" style="width: 80px;padding-top: 15px">Daftar</a>
+        </div>      
+        
+        <div class="col-5" style="background-color: black;padding-left: 200px;">
+          <div class="dropdown">
+            <button class="dropbtn">Restoran <img src="asset/down.png" style="width: 10px"></img></button>
+            <div class="dropdown-content">
+              <a href="cheeseFactory.html" style=""><img src="asset/cheeseFactory.jpg" style="width: 80px"></img></a>
+              <a href="bqueen.html"><img src="asset/BKlogo.png" style="width: 80px"></img></a>
+              <a href="sbuck.html"><img src="asset/sunbuckslogo.png" style="width: 80px"></img></a>
+              <a href="mcwarteg.html"><img src="asset/MCDlogo.png" style="width: 80px"></img></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-7" style="background-color: black;">
+          <a href="#" style="padding-top: 15px">Menu Favorit</a>
+          <a href="sbuck.html" style="padding-top: 15px">Promo Spesial</a>
+          <a href="HubungiSB.html" style="padding-top: 15px">Tentang Kami</a>
+        </div>
+      </div>
+    </div>
+
+
+	<div class="main">
+    <div class="row">
+      <div class="col-4">
+    		  <img src="asset/sunbuckslogo.png" align="right" style="width: 250px;"></img>  
+      </div>
+
+      <div class="col-8" style="text-align: left;padding-left: 10px">
+        <p style="text-align: justify; padding-right: 150px">
+          Sunbucks Corporation adalah sebuah jaringan kedai kopi dari Indonesia yang bermarkas di Jatinangor, Bandung. Sunbuck adalah perusahaan 
+          kedai kopi terbesar di Jatinangor, dengan 150 kedai di 20 kota. Logo Sunbuck berasal dari Syren, ikan duyung berekor kembar dan bermahkota dari
+           mitologi Yunani. Logo ini sendiri dipilih karena nama Sunbuck berasal dari cerita anak Unpad, yang berpetualang di lautan lepas sehingga pemilihan
+           syren ini dirasa tepat dan ada keterkaitan. Logo Sunbuck yang memperlihatkan sebuah brand hijau dengan dua bintang dan dan memperlihatkan duyung 
+           syren yang yang memakai tiara /mahkota. Hal ini agak kontroversial namun menarik dan mudah diingat untuk dikenal di seluruh kampus. Sunbucks menjual
+           kopi, minuman panas berbasis espresso, minuman dingin dan panas lainnya, makanan ringan, serta cangkir dan bijih kopi. Melalui divisi Sunbuck Entertainment
+           dengan merek Hear Music, perusahaan ini juga memasarkan buku, musik, dan film.
+          Sejak pertama kali dibuka di Jatinangor, Sunbuck tumbuh dengan sangat cepat. Pada tahun 2017, Sunbuck banyak membuka kedai baru.
+           Pertumbuhan ini terus berlanjut sampai tahun 2018. Pada akhir maret 2018, Sunbuck telah memiliki 160 kedai, 110 diantara berada di
+           Bandung. Namun pada 1 juli 2018, Sunbucks mengumumkan bahwa mereka akan menutup 60 kedai dan memotong rencana pertumbuhannya di Indonesia, 
+           dikarenakan melemahnya kondisi ekonomi. Pada 29 juli 2018, Sunbuck juga memberhentikan 100 pegawainya. Penutupan dan pemberhentian kerja ini merupakan
+           akhir dari pertumbuhan pesat Sunbuck yang dimulai pada tahun 2017.
+        </p>
+      </div>
+    
+      <div class="col-12">
+        <div class="icon-bar" align="center" style="padding-top: 150px" >
+          <b>Follow Us </b>
+          <a href="https://www.facebook.com"><img src="asset/fb2.jpg" width="30" height="30" align="bottom"></a>
+          <a href="https://www.instagram.com"><img src="asset/ig1.jpg" width="30" height="30" align="bottom"></a>
+          <a href="https://www.twitter.com"><img src="asset/tw2.png" width="30" height="30" align="bottom"></a>
+          <a href="https://www.linkedin.com"><img src="asset/link1.jpg" width="30" height="30" align="bottom"></a>
+          <a href="https://www.youtube.com"><img src="asset/yt1.png" width="30" height="30" align="bottom"></a>
+          <p style="font-size:14px">Copyright © 2017 EMeal Company. All rights reserved.</p>
+        </div>
+      </div>  
+    </div>
+	</div>
+	
+</body>
+
